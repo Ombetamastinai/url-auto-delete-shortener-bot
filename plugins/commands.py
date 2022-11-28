@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('⚡ ᴜᴘᴅᴀᴛᴇꜱ ⚡', url='https://t.me/MRAUPLOADS')
+                InlineKeyboardButton('⚡ ᴜᴘᴅᴀᴛᴇꜱ ⚡', url='https://t.me/PlusTechz')
             ],
             [
                 InlineKeyboardButton('⚡ ꜱᴜʙꜱᴄʀɪʙᴇ ⚡', url=f"https://www.youtube.com/@CinematoBugTV"),
@@ -48,7 +48,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('⚡ ꜱᴜʙꜱᴄʀɪʙᴇ ⚡', url='https://www.youtube.com/@CinematoBugTV'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇꜱ 🤖', url='https://t.me/MRAUPLOADS')
+            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇꜱ 🤖', url='https://t.me/PlusTechz')
             ],[
             InlineKeyboardButton('‼️ ʜᴇʟᴘ ‼️', callback_data='help'),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
@@ -97,7 +97,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('⚡ ꜱᴜʙꜱᴄʀɪʙᴇ ⚡', url='https://www.youtube.com/@CinematoBugTV'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇꜱ 🤖', url='https://t.me/MRAUPLOADS')
+            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇꜱ 🤖', url='https://t.me/PlusTechz')
             ],[
             InlineKeyboardButton('‼️ ʜᴇʟᴘ ‼️', callback_data='help'),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
