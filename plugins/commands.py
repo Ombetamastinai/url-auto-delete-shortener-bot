@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('⚡ ᴜᴘᴅᴀᴛᴇꜱ ⚡', url='https://youtube.com/@lifestylemusic9459')
+                InlineKeyboardButton('⚡ ᴜᴘᴅᴀᴛᴇꜱ ⚡', url='https://t.me/MRAUPLOADS')
             ],
             [
-                InlineKeyboardButton('⚡ ꜱᴜʙꜱᴄʀɪʙᴇ ⚡', url=f"https://youtube.com/@lifestylemusic9459"),
+                InlineKeyboardButton('⚡ ꜱᴜʙꜱᴄʀɪʙᴇ ⚡', url=f"https://www.youtube.com/@CinematoBugTV"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -47,8 +47,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ ꜱᴜʙꜱᴄʀɪʙᴇ ⚡', url='https://youtube.com/@lifestylemusic9459'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇꜱ 🤖', url='https://youtube.com/@lifestylemusic9459')
+            InlineKeyboardButton('⚡ ꜱᴜʙꜱᴄʀɪʙᴇ ⚡', url='https://www.youtube.com/@CinematoBugTV'),
+            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇꜱ 🤖', url='https://t.me/MRAUPLOADS')
             ],[
             InlineKeyboardButton('‼️ ʜᴇʟᴘ ‼️', callback_data='help'),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
@@ -96,8 +96,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ ꜱᴜʙꜱᴄʀɪʙᴇ ⚡', url='https://youtube.com/@lifestylemusic9459'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇꜱ 🤖', url='https://youtube.com/@lifestylemusic9459')
+            InlineKeyboardButton('⚡ ꜱᴜʙꜱᴄʀɪʙᴇ ⚡', url='https://www.youtube.com/@CinematoBugTV'),
+            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇꜱ 🤖', url='https://t.me/MRAUPLOADS')
             ],[
             InlineKeyboardButton('‼️ ʜᴇʟᴘ ‼️', callback_data='help'),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
