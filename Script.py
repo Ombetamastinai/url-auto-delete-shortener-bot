@@ -13,7 +13,7 @@ def is_enabled(value, default):
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("ʜᴏᴍᴇ_ʙᴜᴛᴛᴏɴᴜʀʟ_ᴜᴘᴅᴀᴛᴇꜱ", 'https://atglinks.com/ref/OM786n')
     START_TXT = environ.get("START_TXT", '''<b>ʜᴇʟʟᴏ {} 👋🏻 ɪ'ᴍ ᴀ ꜱᴇᴀʀᴄʜ ʙᴏᴛ. ɪ ᴄᴀɴ ꜱʜᴀʀᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴀɴᴅ ꜱᴇʀɪᴇꜱ ꜰᴏʀ ꜰʀᴇᴇ 😁.</b>
-<i>Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ</i>''')
+<i>Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ꜱᴇɴᴅ ᴍᴇ ᴀ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ʜᴇʀᴇ</i>''')
     HELP_TXT = """ʜᴇʏ {}
 ʜᴇʀᴇ ɪꜱ ᴍʏ ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅꜱ."""
     ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/IMDb_Pro_bot><b>IMDb_Pro_bot</b></a>\n
