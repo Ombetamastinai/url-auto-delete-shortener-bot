@@ -11,17 +11,17 @@ def is_enabled(value, default):
         return default
 
 class script(object):
-    HOME_BUTTONURL_UPDATES = environ.get("ʜᴏᴍᴇ_ʙᴜᴛᴛᴏɴᴜʀʟ_ᴜᴘᴅᴀᴛᴇꜱ", 'https://clicksfly.com/ref/OM786n')
+    HOME_BUTTONURL_UPDATES = environ.get("ʜᴏᴍᴇ_ʙᴜᴛᴛᴏɴᴜʀʟ_ᴜᴘᴅᴀᴛᴇꜱ", 'https://atglinks.com/ref/OM786n')
     START_TXT = environ.get("START_TXT", '''<b>ʜᴇʟʟᴏ {} 👋🏻 ɪ'ᴍ ᴀ ꜱᴇᴀʀᴄʜ ʙᴏᴛ. ɪ ᴄᴀɴ ꜱʜᴀʀᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴀɴᴅ ꜱᴇʀɪᴇꜱ ꜰᴏʀ ꜰʀᴇᴇ 😁.</b>
 <i>Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ</i>''')
     HELP_TXT = """ʜᴇʏ {}
 ʜᴇʀᴇ ɪꜱ ᴍʏ ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅꜱ."""
-    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/AKSHSUMIT_BOT><b>ITz_AKSHU</b></a>\n
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/AKSHSUMIT_BOT><b>ITz_AKSHU</b></a>\n
+    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/IMDb_Pro_bot><b>IMDb_Pro_bot</b></a>\n
+👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Om56577><b>OM-I</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\n
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/PlusTechz><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/CinematoBugTV><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
 » ɪ ᴡɪʟʟ ᴄʀᴇᴀᴛᴇ ᴏɴᴇ ʙᴏᴛ ꜰᴏʀ ʏᴏᴜ<b>
