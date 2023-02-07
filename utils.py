@@ -22,7 +22,7 @@ BTN_URL_REGEX = re.compile(
     r"(\[([^\[]+?)\]\((buttonurl|buttonalert):(?:/{0,2})(.+?)(:same)?\))"
 )
 
-imdb = Cinemagoer() 
+imdb = Cinemagoer()
 
 BANNED = {}
 SMART_OPEN = '“'
@@ -167,6 +167,7 @@ async def search_gagala(text):
     soup = BeautifulSoup(response.text, 'html.parser')
     titles = soup.find_all( 'h3' )
     return [title.getText() for title in titles]
+
 
 
 async def get_settings(group_id):
@@ -383,7 +384,7 @@ async def get_shortlink(link):
         https = "https"
         link = link.replace("http", https)
     url = f'https://atglinks.com/api'
-    params = {'api': URL_SHORTNER_WEBSITE_API,
+   params = {'api': URL_SHORTNER_WEBSITE_API,
               'url': link,
               }
 
