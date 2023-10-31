@@ -52,6 +52,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('‼️ ʜᴇʟᴘ ‼️', callback_data='help'),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
+            ],[
+            InlineKeyboardButton('🍿 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴠɪᴇꜱ? 🍿', url='https://clipchamp.com/watch/x6cber8j5gT')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -101,6 +103,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('‼️ ʜᴇʟᴘ ‼️', callback_data='help'),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
+            ],[
+            InlineKeyboardButton('🍿 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴠɪᴇꜱ? 🍿', url='https://clipchamp.com/watch/x6cber8j5gT')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
