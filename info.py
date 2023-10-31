@@ -82,7 +82,7 @@ if SELF_DELETE == "True":
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡"
-DOWNLOAD_TEXT_URL = "https://www.youtube.com/@CinematoBugTV"
+DOWNLOAD_TEXT_URL = "https://clipchamp.com/watch/x6cber8j5gT"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "ꜱᴜʙꜱᴄʀɪʙᴇ"
